@@ -6,3 +6,4 @@ of the given user. The code was written using Python 2.7.
 Run from terminal: $ python egoNetworkTwitterUser.py twitter-user-name
 
 
+The file drawNetwork.py draws the ego network (text file) and prints some of its general properties.
