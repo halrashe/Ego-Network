@@ -89,10 +89,10 @@ def load_second_degree_friends(users):
 
 #----------------------------------------------------
 
-CONSUMER_KEY    = 'ytL7IqHlwowHYctEh8nUnbMyL'
-CONSUMER_SECRET = 'yvYR2QXuNBSJLWqIYFBhJY38mRVwYlQvJWpkFvCSUFjIrzMUZM'
-ACCESS_KEY      = '446908951-Q2zVmm7yJmgqU8HgRCsXJrhY8BVlaskXcrvPVJN6'
-ACCESS_SECRET   = '3XFMk3Bx2zFvWT4luKTql8gWTDmvUygTAJ3DjPrlXjuEu'
+CONSUMER_KEY    = ''
+CONSUMER_SECRET = ''
+ACCESS_KEY      = ''
+ACCESS_SECRET   = ''
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
